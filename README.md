@@ -1,6 +1,6 @@
 # OT-CycleGAN (Optimal Transport-driven CycleGAN)
 
-Pytorch implementation of Optimal Transport driven CycleGAN for Unsupervised Learning in Inverse Problems [[Paper](https://arxiv.org/abs/1909.12116)]
+Pytorch implementation of **Optimal Transport driven CycleGAN for Unsupervised Learning in Inverse Problems** [[Paper](https://arxiv.org/abs/1909.12116)]
 
 ## Train on custom dataset
 
