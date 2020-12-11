@@ -30,4 +30,6 @@ Low dose CT image
 
 Converted standard dose CT image
 
-![SDCT](converted_to_high_dose_CT)
+![SDCT](converted_to_high_dose_CT.jpg)
+
+You can find that model denoised, blurred original LDCT.
