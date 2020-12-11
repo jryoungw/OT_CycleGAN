@@ -22,14 +22,6 @@ python train.py --data_path directory_for_custom_dataset --domain_A subdirctory_
 
 # Training Result
 
-Training result for converting low dose CT into standard dose CT.
+I only experimented CT image for model training. However, for legan issue - such as privacy of the patient, I cannot upload converted CT image.
 
-Low dose CT image
-
-![LDCT](low_dose_CT.jpg)
-
-Converted standard dose CT image
-
-![SDCT](converted_to_high_dose_CT.jpg)
-
-You can find that model denoised, blurred original LDCT.
+In further commits, I would be happy to share other images that have no legal issue.
