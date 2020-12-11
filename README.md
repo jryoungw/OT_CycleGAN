@@ -2,7 +2,7 @@
 
 Pytorch implementation of **Optimal Transport driven CycleGAN for Unsupervised Learning in Inverse Problems** [[Paper](https://arxiv.org/abs/1909.12116)]
 
-## Train on custom dataset
+# Train on custom dataset
 
 <pre><code>
 python train.py --data_path directory_for_custom_dataset --domain_A subdirctory_for_domain_A \\
@@ -18,3 +18,16 @@ python train.py --data_path directory_for_custom_dataset --domain_A subdirctory_
 5. With my personal experience, I changed **Algorithm 3.1** to train the generator prior to the discriminator. Training generator prior to discriminator makes model more stable.
 6. If you train model with **CT** option for **normalize** configuration, you may want to convert numpy ndarray into DICOM format. It might be helpful referencing [this code](https://github.com/jryoungw/DicomWrite/blob/master/write_dicom.py)
 7. Alert! *This is not official implementation*. 
+
+
+# Training Result
+
+Training result for converting low dose CT into standard dose CT.
+
+Low dose CT image
+
+![LDCT](low_dose_CT.jpg)
+
+Converted standard dose CT image
+
+![SDCT](converted_to_high_dose_CT)
