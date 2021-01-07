@@ -23,9 +23,9 @@ class ConvBlock(nn.Module):
         x_ = self.relu1(x_)
         x_ = self.conv2(x_)
         x_ = self.instance2(x_)
-        x_ = self.relu2(x_)
+        x_ = self.relu2(x_+x)
         
-        return x + x_
+        return x_
         
 
 class Generator(nn.Module):
