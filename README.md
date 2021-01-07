@@ -25,3 +25,7 @@ python train.py --data_path directory_for_custom_dataset --domain_A subdirctory_
 I only experimented CT image for model training. However, for legan issue - such as privacy of the patient, I cannot upload converted CT image.
 
 In further commits, I would be happy to share other images that have no legal issue.
+
+# Changes
+
+2021.01.07 : Added skip connection in [ConvBlock](https://github.com/jryoungw/OT_CycleGAN/blob/master/models.py#L5)
