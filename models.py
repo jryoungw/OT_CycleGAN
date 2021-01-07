@@ -18,14 +18,14 @@ class ConvBlock(nn.Module):
         self.relu2 = nn.ReLU()
     
     def forward(self, x):
-        x = self.conv1(x)
-        x = self.instance1(x)
-        x = self.relu1(x)
-        x = self.conv2(x)
-        x = self.instance2(x)
-        x = self.relu2(x)
+        x_ = self.conv1(x)
+        x_ = self.instance1(x_)
+        x_ = self.relu1(x_)
+        x_ = self.conv2(x_)
+        x_ = self.instance2(x_)
+        x_ = self.relu2(x_)
         
-        return x
+        return x + x_
         
 
 class Generator(nn.Module):
