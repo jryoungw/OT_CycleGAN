@@ -22,7 +22,7 @@ python train.py --data_path directory_for_custom_dataset --domain_A subdirctory_
 
 # Training Result
 
-I only experimented CT image for model training. However, for legan issue - such as privacy of the patient, I cannot upload converted CT image.
+I only experimented CT image for model training. However, for legal issue - such as privacy of the patient, I cannot upload converted CT image.
 
 In further commits, I would be happy to share other images that have no legal issue.
 
